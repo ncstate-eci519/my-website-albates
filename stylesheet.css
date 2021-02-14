@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(4, 4, 87);
+}
+
+head{
+    color:rgb(245, 245, 220); 
+}
+head{
+    background-color:rgb(4, 4, 87);
+}
+h1{
+    color:rgb(245, 245, 220); 
+}
+
+h2{
+    color:rgb(245, 245, 220); 
+}
+
+p{
+    color:rgb(245, 245, 220); 
+}
+
+a{
+    text-decoration:none;
+}
+
+.text-wheat{
+        color:rgb(245, 245, 220) 
+}
+
+.page-title{
+    font-size: 32px;
+}
+IMG.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+ul{
+    padding:0;
+    width 100%;
+}
+li{
+    display: inline;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width:19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black
+}
+li:last-child a {
+    margin-right:0;
+}
+a:link, a:visited, a:focus{
+    background:rgb(245, 245, 220);
+}
+a:hover{
+    background: rgb(240, 174, 88);
+}
+a:active{
+    background: rgb(114, 24, 24);
+    color: white; 
+}
