@@ -2,10 +2,6 @@ body{
     background-color: rgb(216, 168, 105);
 }
   
-  
-     
-
-
 .box1{
     margin: 10px;
     padding: 15px;
@@ -71,7 +67,7 @@ IMG.displayed{
 
 ul{
     padding:0;
-    width 100%;
+    width: 100%;
 }
 li{
     display: inline;
@@ -100,3 +96,15 @@ a:active{
     background: rgb(114, 24, 24);
     color: white; 
 }
+
+ @media screen and (prefers-color-scheme: dark) {
+    body {
+      background-color:black;
+      color:white;
+    }
+
+    .page-title{
+        color: white;
+    }
+  
+ }
